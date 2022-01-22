@@ -34,7 +34,7 @@ class _FormScreenState extends State<FormScreen> {
           if (snapshot.connectionState == ConnectionState.done) {
             return Scaffold(
               appBar: AppBar(
-                title: Text("แบบฟอร์มบันทึกคะแนนสอบ"),
+                title: Text("Exam Score from"),
               ),
               body: Container(
                 padding: EdgeInsets.all(20),
